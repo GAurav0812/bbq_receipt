@@ -1,0 +1,210 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  color: #1b69df;
+  font-family: monospace;
+  text-transform: capitalize;
+}
+
+.banner {
+  position: relative;
+  background: #fff;
+  margin-bottom: 20px;
+}
+
+.banner:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -10px;
+  width: 100%;
+  height: 10px;
+  left: 0;
+  background:
+    linear-gradient(45deg, transparent 33.333%,
+    #fff 33.333%, #fff 66.667%,
+    transparent 66.667%),
+    linear-gradient(-45deg, transparent 33.333%,
+    #fff 33.333%, #fff 66.667%,
+    transparent 66.667%);
+  background-size: 15px 35px;
+}
+
+.banner:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -10px;
+  width: 100%;
+  height: 10px;
+  left: 0;
+  background:
+    linear-gradient(-45deg, transparent 33.333%,
+    #fff 33.333%, #fff 66.667%,
+    transparent 66.667%),
+    linear-gradient(45deg, transparent 33.333%,
+    #fff 33.333%, #fff 66.667%,
+    transparent 66.667%);
+  background-size: 15px 35px;
+  transform: rotate(180deg);
+}
+
+// .pull-left {
+//   /*padding-left:5%;*/
+//   margin-bottom: 15px;
+// }
+
+// .pull-right {
+//   /*padding-right:5%;*/
+//   margin-bottom: 5px;
+// }
+
+.printdown-padding {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.OriginalText {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.tbHeading th {
+  padding-left: 0px !important;
+  padding-right: 18px !important;
+}
+
+.pd-l-10 {
+  padding-left: 13px !important;
+}
+
+.section {
+
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-color: #333;
+  background-image: url("assets/images/backgroundimg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.logo {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.well {
+  background-color: #fff;
+  /*margin-left:10px;
+    margin-right:10px;*/
+}
+
+.RecipientDesc {
+  margin-top: 20px;
+  text-align: left;
+  /*padding-left:2%;*/
+  padding-left: 15px;
+  padding-right: 15px;
+  line-height: 0.83;
+  font-size: 13px;
+}
+
+.border-dashed {
+  border-bottom: 1px dashed #1b69df;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+  border-top: none;
+  border-bottom: 1px dashed #1b69df;
+  padding: 12px 8px 12px 8px;
+}
+
+.border-none {
+  border-top: none;
+  border-bottom: none !important;
+}
+
+
+
+.regTitle {
+  font-weight: 700;
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.regAddr {
+  font-size: 13px;
+  line-height: 1.2;
+}
+
+
+
+.heading {
+  font-size: 13px;
+}
+
+.addr {
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.userName {
+  text-align: left;
+  /*padding-left:2%;*/
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.signatureImg {
+  margin-bottom: 5px;
+}
+
+.signclass {
+  border-bottom: 2px solid;
+}
+
+.smalltext {
+  padding-top: 2%;
+}
+
+/*zig zag border*/
+
+@media (max-width: 768px) {
+  .signatureTitle {
+    font-size: 18px;
+  }
+}
+
+
+
+
+.sharelink {
+  margin: 10px 0;
+  color: #fff;
+  font-size: 15px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .tbHeading th {
+    padding-left: 15px !important;
+    padding-right: 18px !important;
+  }
+}
